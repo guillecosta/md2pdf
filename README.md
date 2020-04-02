@@ -4,7 +4,7 @@ A short script to convert Markdown documents to formatted PDFs for endcoronaviru
 ## User's Guide
 
 ### Prerequisites
-Unfortunately, this script only works on UNIX systems. You need to have Python, a full LaTeX install, and Pandoc for this to work.
+Unfortunately, this script only works on UNIX systems. You need to have Python, a full LaTeX install, and Pandoc for this to work. Make sure you have `pyyaml` installed by running `pip install pyyaml`.
 
 ### Using this script
 Firstly, write your translation as a Markdown file, which we'll call `file.md`. This script supports five title fields, which should be written like so in the beggining of your Markdown file:
